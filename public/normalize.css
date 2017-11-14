@@ -1,0 +1,109 @@
+
+
+* {
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header */
+/* ... */
+
+
+
+
+header {
+  /* you can use a color-dropper in Chrome DevTools to extract this color code */
+  background: #5ebacf;
+}
+
+header a, header a:visited, header a:active {
+  color: white;
+}
+
+header a:hover {
+  color: lightgrey;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+/* title */
+
+h1 {
+  text-align: center;
+}
+
+
+
+/* article */
+
+article {
+  padding: 0 0.75em;
+}
+
+
+/* events */
+
+.event {
+  padding: 0.75em;
+}
+
+.event img {
+  width: 100%;
+}
+
+
+
+/* footer */
+
+footer {
+  background: #5ebacf;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width : 768px) {
+/*styles for wide screen*/
+
+/*no changes*/
+/* title */
+/* article */
+
+
+
+
+
+/* header */
+header ul {
+  display: :flex;
+  justify-content: : space-around;
+}
+
+/* events */
+#events {
+  display: flex;
+}
+
+}
+
+/* footer */
